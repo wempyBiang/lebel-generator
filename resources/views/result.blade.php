@@ -24,7 +24,7 @@
                         <p class="name"> {{ $data[$j]['nama'] }} </p>
                     </div>
                     <div class="price">
-                        <p>Rp {{ $data[$j]['harga'] }}</p>
+                        <p>Rp {{ number_format($data[$j]['harga'], 0, ",", ".") }}</p>
                     </div>
                 </div>
             @endfor
@@ -44,7 +44,8 @@
                         <p class="name"> {{ $data[$i]['nama'] }} </p>
                     </div>
                     <div class="price">
-                        <p>Rp {{ $data[$i]['harga'] }}</p>
+                        <p>Rp {{ number_format($data[$i]['harga'], 0, ",", ".") }}</p>
+                        
                     </div>
                 </div>
             @endfor

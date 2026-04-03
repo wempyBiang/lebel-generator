@@ -8,6 +8,22 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
+h1 {
+    margin-bottom: 10px;
+}
+
+button, input {
+    padding: 5px;
+}
+/* home page */
+.section-box {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* result label page */
 
 .content {
     height: 27cm;
